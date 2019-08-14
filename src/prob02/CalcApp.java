@@ -21,28 +21,28 @@ public class CalcApp {
 		switch(str[2]) {
 		case"+":{
 			Add add = new Add();
-			add.setValue(a, b);
+
 			int result =add.calculate(a, b);
 			System.out.println(result);
 			break;
 		}
 		case"-":{
 			Sub sub = new Sub();
-			sub.setValue(a, b);
+
 			int result =sub.calculate(a, b);
 			System.out.println(result);
 			break;
 		}
 		case"*":{
 			Mul mul = new Mul();
-			mul.setValue(a, b);
+	
 			int result =mul.calculate(a, b);
 			System.out.println(result);
 			break;
 		}
 		case"/":{
 			Div div = new Div();
-			div.setValue(a, b);
+
 			int result =div.calculate(a, b);
 			System.out.println(result);
 			break;

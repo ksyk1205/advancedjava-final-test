@@ -4,16 +4,11 @@ public class Person {
 	private static int numberOfPerson; // 전체 인구수
 	private int age;
 	private String name;
-	
-	public Person() {
-//		this.age = 12;
-		this.name = " ";
-	}
 
 	public Person(String name) {
-		this.name=name;
-		this.age = 12;
-
+//		this.name=name;
+//		this.age = 12;
+		this(12, name);
 	}
 	public Person(int age, String name) {
 		Person.numberOfPerson++;
